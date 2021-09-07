@@ -1,4 +1,4 @@
-package com.loiane.cursojava.aula13;
+package com.violiveiradev.cursojava.aula13;
 
 public class OperadoresLogicos {
 
