@@ -1,3 +1,4 @@
+//não podemos intancias esta classe, pois ela é abstrata.
 public abstract class Funcionario {
 
     private String nome;
@@ -8,9 +9,7 @@ public abstract class Funcionario {
 
     }
 
-    public double getBonificacao() {
-        return this.salario * 0.05;
-    }
+    public abstract double getBonificacao();
 
     public String getNome() {
         return nome;
